@@ -1,0 +1,4 @@
+ @font-face {
+    font-family: MyriadPro; /* Имя шрифта */
+    src: url("font/MyriadPro/MyriadPro-Regular.otf"); /* Путь к файлу со шрифтом */
+   }

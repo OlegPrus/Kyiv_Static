@@ -1,0 +1,168 @@
+.graduateBlock{
+    width: 1200px;
+    margin: 0 auto;
+}
+.graduates {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d8d8d8;
+}
+.graduates h1{
+    font-size: 30px;
+    color: #4B75A4;
+    margin-bottom: 0;
+}
+table.graduatesFilter{
+    display: inline-block;
+    vertical-align: middle;
+}
+.GraduatesBlock {
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    box-sizing:border-box;
+    margin-bottom: 28px;
+}
+.GraduatesBlock a{
+    color: #4B75A4;
+}
+.text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #999999;
+}
+.text span{
+    color: #4B75A4;
+}
+.text1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    color: #666666;
+}
+.text2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    color: #666666;
+}
+.span {
+    color: #4B75A4;
+}
+.colorP {
+    color: #4B75A4;
+    border-bottom: 1px solid #d8d8d8;
+}
+.profileMyRatting {
+    margin-top: 10px;
+}
+
+.lessonBlock {
+    margin: 0 auto;
+}
+.spoilerBody {
+    display:none;
+}
+.lessonText {
+    position: relative;
+    width:45%;
+    z-index: 0;
+}
+.lessonBlock span {
+    font-weight: bold;
+}
+span.spoilerLinks,span.spoilerLinksHidden {
+    cursor:pointer;
+}
+span.spoilerClick:hover{
+    cursor:pointer;
+    color:#666666;
+}
+.spoilerLinksHidden{
+    margin-left: 44px;
+}
+span.spoilerClick {
+    padding-left: 10px;
+    text-decoration:underline;
+    color:#4b75a4;
+    font-size: 14px;
+    font-weight: normal;
+}
+span.spoilerTriangle {
+    font-size: 14px;
+    color: #4b75a4;
+    margin-left: 3px;
+}
+.one{
+    width:49%;
+    float:left;
+}
+.two{
+    width:49%;
+    float:right;
+}
+.spoiler-body {
+    display:none;
+    border: 1px #666666 solid;
+    border-radius: 15px;
+    padding: 0px 10px 10px 25px;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+.spoiler-body img{
+    margin-left: 450px;
+    padding-top: 5px;
+    display: block;
+}
+.spoiler-body img:hover{
+    cursor:pointer;
+}
+.spoiler-title{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    cursor:pointer;
+    text-decoration:underline;
+    color:#4b75a4;
+}
+.spoiler-title:hover{
+    color: #666666;
+}
+.opened {
+}
+.closed {
+}
+.GraduatesBlock td > img {
+    width: 65px;
+    height: 65px;
+}
+.rat {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #999999;
+}
+.rat img{
+    margin-left:2px;
+}
+.graduatesFilter td{
+    padding: 0 10px 0 10px;
+    border-left: 1px solid #4b75a4;
+}
+.graduatesFilter td a{
+    font-size: 14px;
+    color:#4b75a4;
+}
+.graduatesFilter td a:visited{
+    color:#4b75a4;
+}
+.graduatesFilter td a:hover{
+    color:#999999;
+}
+.graduatesFilter td:first-child{
+    border-left: none;
+}
+.graduatesFilter td a.selectedFilter{
+    color:#999999;
+    text-decoration: none;
+}

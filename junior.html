@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+   <script type="text/javascript" src="js/common.js"></script>
+   <link type="text/css" rel="stylesheet" href="styles/courses.css">
+   <link rel="stylesheet" href="styles/fontface.css">
+   <link rel="stylesheet" type="text/css" href="styles/style.css">
+   <link rel="stylesheet" href="styles/regform.css">
+   <link rel="stylesheet" type="text/css" href="styles/hamburgermenu.css">
+   <link rel="shortcut icon" href="http://intita.com/css/images/favicon.ico" type="image/x-icon">
+
+   <title>INTITA</title>
+  </head>
+  <body>
+	<div id="main-wrapper">
+	    <div id="mainheader">
+        <!-- Hamburger menu -->
+            <div style="display: none;" id="hambNav">
+                <div id="hambButton">
+                    <img src="images/hamburger.png">
+                </div>
+                <div style="display: none; overflow-y: visible; height: inherit;" id="hambMenu">
+                    <a href="index.html" class="logo">
+                        <img src="images/hamburgerlogo.png">
+                    </a>
+                    <ul class="menulist">
+                        <li><a href="courses.html">Курси</a></li>
+                        <li><a href="teachers.html">Викладачі</a></li>
+                        <li><a href="graduate.html">Випускники</a></li>
+                        <li><a href="http://intita.com">Онлайн</a></li>
+                        <li><a href="aboutus.html">Про нас</a></li>
+                    </ul>
+                    <div class="humundline"></div>
+                    <a id="hum_button" href="http://www.intita.com/#form">Почати</a>
+                </div>
+            </div>
+        <div id="headerUnderline">
+            <div style = "width: auto" id="navigation" class="down">
+                <div class="main">
+                    <div id="logo_img" class="down">
+                        <a href="http://kyiv.intita.com">
+                            <img id="logo" src="images/Logo_small.png">
+                        </a>
+                    </div>
+
+                    <div style = "margin-right:60px;" id="enterButton">
+                        <div id="button_border" class="down">
+                        </div>
+                        <a id="enter_button" class="down" href="http://www.intita.com/#form">Почати</a>
+                    </div>
+                    <div id="menulist">
+                        <ul>
+                            <li>
+                                <a href="courses.html">Курси</a>
+                            </li>
+                            <li>
+                                <a href="teachers.html">Викладачі</a>
+                            </li>
+                            <li>
+                                <a href="graduate.html">Випускники</a>
+                            </li>
+                            <li><a href="http://intita.com">Онлайн</a></li>
+                            <li>
+                                <a href="aboutus.html">Про нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                 </div>
+            </div>
+        </div>
+    <div id="contentBoxMain">
+        <div id="content">
+            <div id="coursesMainBox">
+                <div class="coursesHeader">
+                    <h1>Наші курси</h1>
+                        <table class="coursesType">
+                        <tbody><tr>
+                        <!--Для початківців (6)  |  Для спеціалістів (0)  |  Для експертів (0) | Усі курси (0)|-->
+                        <td valign="top">
+                            <div class="sourse selectedSelector"><a href="junior.html">
+                                    Для початківців</a>&nbsp;<span class="courseNum">7</span>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="sourse">&nbsp;&nbsp;<img src="images/coursesline2.png">&nbsp;&nbsp;
+                            </div>
+                        </td>
+                        <td valign="top">
+                            <div class="sourse "><a href="middle.html">
+                                    Для спеціалістів</a>&nbsp;<span class="courseNum">3</span>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="sourse">&nbsp;&nbsp;<img src="images/coursesline2.png">&nbsp;&nbsp;
+                            </div>
+                        </td>
+                        <td valign="top">
+                            <div class="sourse "><a href="senior.html">
+                                    Для експертів</a>&nbsp;<span class="courseNum">1</span>
+                            </div>
+                        </td>
+
+                        <td>
+                            <div class="sourse">&nbsp;&nbsp;<img src="images/coursesline2.png">&nbsp;&nbsp;
+                            </div>
+                        </td>
+                        <td valign="top">
+                            <div class="sourse">&nbsp;&nbsp;<a href="courses.html">
+                                    Усі курси</a>&nbsp;<span class="courseNum">11</span></div>
+                        </td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <div class="coursesline1">
+                    <a id="coursesline1" href="#form"><img src="images/coursesline1.png"></a>
+                </div>
+                <table>
+                <tbody><tr>
+                    <td>
+                    </td>
+                    <td valign="top">
+                    <div id="coursesPart1">
+                        <div class="courseBox">
+                                     <img src="images/shareCourseImg_13.png">
+                                     <div class="courseName">Інтернет програміст (РНР)</div>
+                            <div class="courseLevelBox">
+                                Рівень курсу:                        <span class="courseLevel">
+                                сильний початківець			        </span>
+
+                                
+                            </div>
+                            <!--Стан курсу-->
+                            <div class="courseStatusBox">
+                                Стан курсу:                         <span id="courseStatus1">
+                                            <img src="images/enable.png">
+                                 доступний                    </span>
+                            </div>
+                            <!--Мови курсу-->
+                            <div class="courseLang">
+                                Мови курсу:     <a id="coursesLangs" href="#">
+                                    ua         </a>
+
+                            </div>
+                            <div class="coursePriceBox">
+                                Вартість:                             <span id="coursePriceStatus1">2348 $.</span>
+                                &nbsp;<span id="coursePriceStatus2">1644 $.</span>
+                                    <span id="discount">(знижка - 30%)</span>
+                            </div>
+                            
+                        </div>
+                        <div class="courseBox">
+                            <img src="images/11000_0004_-8.png">
+
+                            <div class="courseName">Програміст (Java)
+                            </div>
+                            <div class="courseLevelBox">
+                                Рівень курсу:                        <span class="courseLevel">
+                                початківець			        </span>
+
+                                
+                            </div>
+                            <!--Стан курсу-->
+                            <div class="courseStatusBox">
+                                Стан курсу:                         <span id="courseStatus0">
+                                                                                    <img src="images/disabled.png">
+                                                розробляється                    </span>
+                            </div>
+                            <!--Мови курсу-->
+                            <div class="courseLang">
+                                Мови курсу:<a id="coursesLangs" href="#">ua</a>
+                            </div>
+                            <div class="coursePriceBox">
+                                Вартість:                             <span id="coursePriceStatus1">670 $.</span>
+                                &nbsp;<span id="coursePriceStatus2">469 $.</span>
+                                    <span id="discount">(знижка - 30%)</span>
+                                                    </div>
+                            
+                            </div>
+                            <div class="courseBox">
+                                 <img src="images/11000_0007_-9.png">
+                                 <div class="courseName"><a href="http://intita.com/course/ua/cplusplus">Програміст (С++)</a>
+                                 </div>
+                            <div class="courseLevelBox">
+                                Рівень курсу:   <span class="courseLevel">стажер</span>
+
+                            
+                            </div>
+                            <!--Стан курсу-->
+                            <div class="courseStatusBox">
+                                Стан курсу:                         <span id="courseStatus0">
+                                                                                    <img src="images/disabled.png">
+                                                розробляється                    </span>
+                            </div>
+                            <!--Мови курсу-->
+                            <div class="courseLang">
+                                Мови курсу:                        <a id="coursesLangs" href="#">
+                                    ua                        </a>
+                            </div>
+                            <div class="coursePriceBox">
+                                Вартість:                             <span id="coursePriceStatus1">440 $.</span>
+                                &nbsp;<span id="coursePriceStatus2">308 $.</span>
+                                    <span id="discount">(знижка - 30%)</span>
+                            </div>
+                            
+                        </div>
+                        <div class="courseBox">
+                                <img src="images/icons1-2.jpg">
+
+                                <div class="courseName">ВЕБ-дизайнер. Проектувальник інтерфейсів (UI)
+                                </div>
+                                <div class="courseLevelBox">
+                                        Рівень курсу:                        <span class="courseLevel">
+                                        сильний початківець			        </span>
+
+                                    
+                                </div>
+                                <!--Стан курсу-->
+                                <div class="courseStatusBox">
+                                    Стан курсу:<span id="courseStatus0">
+                                    <img src="images/disabled.png">
+                                     розробляється</span>
+                                </div>
+                                <!--Мови курсу-->
+                                <div class="courseLang">
+                                Мови курсу:<a id="coursesLangs" href="#">
+                                        ua</a>
+
+                                </div>
+                                <div class="coursePriceBox">
+                                    Вартість:<span id="coursePriceStatus1">255 $.</span>
+                                    &nbsp;<span id="coursePriceStatus2">179 $.</span>
+                                        <span id="discount">(знижка - 30%)</span>
+                                </div>
+                               
+                        </div>
+                    </div>
+                    </td>
+                    <td>
+                </div>
+                </div>
+                <div class="courseBox">
+                    <img src="images/11000_0008_-6.png">
+
+                    <div class="courseName">Інтернет програміст (Java Script)
+                    </div>
+                    <!--Рівень курсу-->
+                    <div class="courseLevelBox">
+                        Рівень курсу:                        <span class="courseLevel">
+                        сильний початківець			        </span>
+
+                        
+                    </div>
+                    <!--Стан курсу-->
+                    <div class="courseStatusBox">
+                        Стан курсу: <span id="courseStatus0">
+                    <img src="images/disabled.png">розробляється</span>
+                    </div>
+                    <div class="courseLang">
+                        Мови курсу:<a id="coursesLangs" href="#">
+                            ua</a>
+                    </div>
+
+                    <div class="coursePriceBox">
+                        Вартість:<span class="colorGreen">безкоштовно</span>
+                    </div>
+                    
+                </div>
+                <div class="courseBox">
+                    <img src="images/11000_0000_-5.png">
+
+                    <div class="courseName">Програміст (C#)
+                    </div>
+                    <!--Рівень курсу-->
+                    <div class="courseLevelBox">
+                        Рівень курсу:                        <span class="courseLevel">
+                        початківець			        </span>
+
+                        
+                    </div>
+                    <!--Стан курсу-->
+                    <div class="courseStatusBox">
+                        Стан курсу:                         <span id="courseStatus0">
+                                                                            <img src="images/disabled.png">
+                                        розробляється                    </span>
+                    </div>
+                    <div class="courseLang">
+                        Мови курсу:  <a id="coursesLangs" href="#">
+                            ua  </a>
+                    </div>
+
+                    <div class="coursePriceBox">
+                        Вартість:                             <span id="coursePriceStatus1">440 $.</span>
+                            &nbsp;<span id="coursePriceStatus2">308 $.</span>
+                            <span id="discount">(знижка - 30%)</span>
+                                            </div>
+                   
+                </div>
+                <div class="courseBox">
+                                <img src="images/11000_0003.png">
+                                <div class="courseName">Програміст (Swift)
+                                </div>
+                                <div class="courseLevelBox">
+                                    Рівень курсу:                        <span class="courseLevel">
+                                    початківець                 </span>
+
+                                    
+                                </div>
+                                <!--Стан курсу-->
+                                 <div class="courseStatusBox">
+                                    Стан курсу:   <span id="courseStatus0">
+                                           <img src="images/disabled.png">
+                                        розробляється   </span>
+                                </div>
+                                 <!--Мови курсу-->
+                                 <div class="courseLang">
+                                     Мови курсу:                        <a id="coursesLangs" href="#">
+                                        ua                        </a>
+
+                                 </div>
+                            <div class="coursePriceBox">
+                                 Вартість:                             <span id="coursePriceStatus1">440 $.</span>
+                                 &nbsp;<span id="coursePriceStatus2">308 $.</span>
+                                <span id="discount">(знижка - 30%)</span>
+                             </div>
+                    
+                </div>
+
+                </div>
+</td>
+        </tr>
+    </tbody></table>
+</div>
+
+<script src="js/spoilerBlock.js"></script>
+<div style="display: none">
+    <h1 itemprop="name">Наші курси. INTITA - ПРОГРАМУЙ МАЙБУТНЄ!</h1>
+    <img itemprop="image" src="images/intitaLogo.jpg">
+    <p itemprop="description">Хочеш стати висококласним спеціалістом? Приймай вірне рішення - навчайся разом з нами!
+Ми працюємо на результат!</p>
+    </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div id="mainfooter">
+    <div style="height: 90px;display: block;border-bottom: 1px solid #44bdf6;">
+        <div class="footercontent">
+
+            <div class="centerfooter">
+                <div class="footerlogo">
+                    <a href="http://intita.com/">
+                        <img src="images/Logo_small.png">
+                    </a>
+                </div>
+                <div class="footercontact">
+                    <p>
+                        телефон:  +38 0432 52 82 67<br>
+                        тел. моб. +38 067 431 20 10<br>
+                        ел. пошта: intita.hr@gmail.com<br>
+                        скайп: int.ita<br>
+                    </p>
+                </div>
+                <div class="footermenu">
+                    <ul>
+                        <li>
+                            <a href="courses.html">Курси</a>
+                        </li>
+                        <li>
+                            <a href="teachers.html">Викладачі</a>
+                        </li>
+                        <li>
+                            <a href="graduate.html">Випускники</a>
+                        </li>
+                        <li>
+                            <a href="http://intita.com">Онлайн</a>
+                            </li>
+                        <li>
+                            <a href="aboutus.html">Про нас</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightfooter">
+                <a onclick="goUp()"><img src="images/go_up.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id = "rocket">
+    <img src = "images/rocket.png"></img>
+</div>
+<div id="exhaust">
+    <img src="images/exhaust.png">
+</div>
+</body>

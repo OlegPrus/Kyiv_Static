@@ -1,0 +1,235 @@
+/*header navigation*/
+.subNavBlockTeachers {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    clear: both;
+}
+div.subLinksTeachers{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    display:inline-block;
+    margin-bottom: 28px;
+    float:left;
+    width: 30%;
+}
+div.ifYouTeachers{
+    float:right;
+    width:584px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display:inline-block;
+    margin-bottom: 90px;
+    padding:20px;
+    padding-right:32px;
+    background:#4B75A4;
+    overflow: hidden;
+}
+div.ifYouTeachers label{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFF;
+}
+div.ifYouTeachers input {
+    float: right;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+    padding-left: 7px;
+}
+div.ifYouTeachers textarea {
+    float: right;
+    width: 400px;
+    height: 160px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: none;
+    resize: none;
+    padding-left: 7px;
+}
+.ifYouTeachers .row{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.ifYouTeachers div{
+    border: none;
+}
+div.ifYouTeachers label.courseslabel{
+    line-height: 20px;
+}
+.ifYouTeachers .errorMessage{
+    display: inline-block;
+    color: darkred;
+    margin-left: 130px;
+}
+.ifYouTeachers div.error input, .ifYouTeachers div.error textarea{
+    border: 1px solid darkred;
+}
+
+.subLinksTeachers a{
+    color: #666666;
+}
+/*Main Block*/
+.teachersList
+{
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+/*Title*/
+div.titleTeachers {
+    padding: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.titleTeachers h1,h2 {
+    font-weight: inherit;
+    color: #4B75A4;
+    margin: 0 0 10px 0;
+    line-height: 100%;
+}
+/*teacher Column*/
+.leftTeacher{
+    float:left;
+    width:583px;
+}
+.rightTeacher{
+    float:right;
+    width:584px;
+}
+/*teacher Profile Block*/
+.teacherBlock {
+    width:inherit;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.teacherBlock p, .teacherBlock ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.avatarsize{
+    width: 112px;
+    /*height: 132px;*/
+    overflow: hidden;
+}
+.avatarsize img.teacherAvatar{
+    width: 112px;
+    /*min-height: 136px;*/
+}
+.teacherBlock table,.teacherBlock td{
+    vertical-align: top;
+    border-collapse: collapse;
+    padding: 0;
+}
+.teacherBlock td{
+    width: 100%;
+}
+.teacherBlock span{
+    font-weight: bold;
+}
+.teacherBlock ul {
+    padding-left: 20px;
+}
+.teacherCourses {
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left: 20px;
+    background-color: rgba(75,117,164,0.2);
+    color:#467c98;
+}
+.teacherCourses a {
+    color:#467c98;
+}
+div.aboutMore{
+    float:right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #4B75A4;
+}
+.aboutMore img{
+    margin-left: 2px;
+}
+td.profileTeacher{
+    text-align: center;
+    padding: 0 20px 0 0;
+    width: 112px;
+}
+td.profileTeacher a{
+    display: inline-block;
+    font-size: small;
+    line-height: 100%;
+}
+.teacherBlock a:hover {
+    color: #666666;
+}
+#formTeacher {
+    color: white;
+    text-align: left;
+    position: relative;
+    left: 20px;
+    width: 100px;
+}
+.formTeacher1 {
+    border-radius: 5px;
+    height: 30px;
+    width: 380px;
+    text-align: left;
+    text-indent: 5px;
+    float: right;
+}
+#formTeacher2 {
+    border-radius: 5px;
+    height: 90px;
+    width: 398px;
+    text-align: left;
+    text-indent: 5px;
+    float:right;
+    resize: none;
+}
+#formTeacher3 {
+    height: 110px;
+    color: #ffffff;
+}
+#send_btn {
+    width: 110px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    color:#467c98;
+    background-color:#EEEEEE;
+    font-size: medium;
+    margin-top: 20px;
+    clear: both;
+    font-weight: 600;
+    cursor: pointer;
+}
+.teachersList a{
+    color: #4b75a4;
+}
+.teachersList a:hover{
+    color: #666666;
+}
+.btnChat{
+    height:20px;
+    width: 40px;
+    border-radius:10px;
+    border:none;
+    border-top:1px solid #9fb5ce;
+    background:#4b75a4;
+    box-shadow:0px 2px 0px #7f7f7f;
+    margin-top:10px;
+    text-decoration: none;
+    padding: 3px 0 6px 0;
+}
+.btnChatHidden{
+    visibility: hidden;
+}
